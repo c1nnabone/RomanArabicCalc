@@ -38,7 +38,7 @@ public class Calc {
                 throw new InputMismatchException("Какое-то из чисел больше 10 или меньше 1");
             }
             result = calculated(num1, num2, sign);
-            System.out.println("Output:");
+            System.out.println("Output:"); // 234252
             System.out.println(result);
         }
         else {
